@@ -1,0 +1,17 @@
+{
+  "name": "cdtree",
+  "version": "0.0.1",
+  "description": "a command-line tool for directory scan",
+  "ignoreItem": [
+    "images",
+    ".DS_Store",
+    ".idea",
+    "node_modules"
+  ],
+  "bin": {
+    "cdtree": "index.js"
+  },
+  "dependencies": {
+    "yargs": "^4.3.2"
+  }
+}
